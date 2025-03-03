@@ -7,7 +7,7 @@ const Hero = () => {
       id="home" 
       className="relative h-screen flex items-center justify-center bg-cover bg-center"
       style={{ 
-        backgroundImage: 'url("images/main.jpg")' 
+        backgroundImage: 'url("dist/assets/images/main.jpg")' 
       }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
