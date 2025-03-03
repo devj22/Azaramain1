@@ -5,7 +5,7 @@ const FloorPlans = () => {
 
   const floorPlans = {
     '1BHK': {
-      image: 'src/images/1bk.jpg',
+      image: 'images/1bk.jpg',
       title: '1 Bedroom Apartment',
       size: '650-750 sq ft',
       features: [
@@ -16,7 +16,7 @@ const FloorPlans = () => {
       ]
     },
     '2BHK': {
-      image: 'src/images/2bk.jpg',
+      image: 'images/2bk.jpg',
       title: '2 Bedroom Apartment',
       size: '950-1100 sq ft',
       features: [
@@ -28,7 +28,7 @@ const FloorPlans = () => {
       ]
     },
     '3BHK': {
-      image: 'src/images/3bk.jpg',
+      image: 'images/3bk.jpg',
       title: '3 Bedroom Apartment',
       size: '1300-1500 sq ft',
       features: [

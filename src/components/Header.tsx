@@ -21,7 +21,7 @@ const Header = () => {
         {/* Logo */}
         <a href="#home" className="flex items-center h-full">
   <img 
-    src="src/images/mainlogo.png" // Make sure the image is in public/images/ if needed
+    src="images/mainlogo.png" // Make sure the image is in public/images/ if needed
     alt="Azara Logo"
     className="h-12 w-auto object-contain" // Reduced height while maintaining aspect ratio
   />
