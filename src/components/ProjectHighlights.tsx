@@ -4,7 +4,7 @@ import { Shield, Home, Leaf, Wifi, MapPin, Zap } from 'lucide-react';
 const HighlightCard = ({ icon, title, description }) => {
   return (
     <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100">
-      <div className="text-indigo-600 mb-4">{icon}</div>
+      <div className="text-[#c95e4e] mb-4">{icon}</div>
       <h3 className="text-xl font-semibold mb-2 text-gray-800">{title}</h3>
       <p className="text-gray-600">{description}</p>
     </div>
@@ -14,32 +14,32 @@ const HighlightCard = ({ icon, title, description }) => {
 const ProjectHighlights = () => {
   const highlights = [
     {
-      icon: <Shield size={32} />,
+      icon: <Shield size={32} color="#c95e4e" />,
       title: "24/7 Security",
       description: "Round-the-clock security personnel and advanced surveillance systems for your peace of mind."
     },
     {
-      icon: <Home size={32} />,
+      icon: <Home size={32} color="#c95e4e" />,
       title: "Modern Design",
       description: "Contemporary architecture with premium finishes and thoughtfully designed living spaces."
     },
     {
-      icon: <Leaf size={32} />,
+      icon: <Leaf size={32} color="#c95e4e" />,
       title: "Green Spaces",
       description: "Beautifully landscaped gardens and outdoor areas for relaxation and recreation."
     },
     {
-      icon: <Wifi size={32} />,
+      icon: <Wifi size={32} color="#c95e4e" />,
       title: "Smart Living",
       description: "Smart home features integrated throughout for convenience and modern lifestyle."
     },
     {
-      icon: <MapPin size={32} />,
+      icon: <MapPin size={32} color="#c95e4e" />,
       title: "Prime Location",
       description: "Strategically located with easy access to business districts, shopping, and entertainment."
     },
     {
-      icon: <Zap size={32} />,
+      icon: <Zap size={32} color="#c95e4e" />,
       title: "Energy Efficient",
       description: "Sustainable design with energy-efficient appliances and systems to reduce environmental impact."
     }

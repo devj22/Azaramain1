@@ -20,11 +20,13 @@ const Hero = () => {
           Luxury apartments designed for modern living in the heart of the city
         </p>
         <a 
-          href="#highlights" 
-          className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-8 py-3 rounded-md transition-colors duration-300"
-        >
-          Explore Now
-        </a>
+  href="#highlights" 
+  className="inline-block bg-[#c95e4e] hover:bg-[#a74c3f] text-white font-semibold px-8 py-3 rounded-md transition-colors duration-300"
+>
+  Explore Now
+</a>
+
+
       </div>
       
       <a 
