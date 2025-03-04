@@ -19,23 +19,23 @@ const Amenities = () => {
   const amenities = [
     {
       title: "State-of-the-art Fitness Center",
-      image: "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80"
+      image: "images/gymm.jpg"
     },
     {
-      title: "Infinity Swimming Pool",
-      image: "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80"
+      title: "Swimming Pool",
+      image: "images/pool.jpg"
     },
     {
       title: "Multipurpose Hall",
-      image: "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80"
+      image: "images/hall.jpg"
     },
     {
       title: "Rooftop Terrace",
-      image: "https://images.unsplash.com/photo-1529290130-4ca3753253ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80"
+      image: "images/Terrace_A.jpg"
     },
     {
-      title: "Landscaped Gardens",
-      image: "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80"
+      title: "Ladies-Gym",
+      image: "images/gym.jpg"
     },
     {
       title: "Children's Play Area",
