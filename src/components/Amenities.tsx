@@ -23,7 +23,7 @@ const Amenities = () => {
     },
     {
       title: "Swimming Pool",
-      image: "images/pool.jpg"
+      image: "https://i.ibb.co/0j64x8nc/pool.jpg"
     },
     {
       title: "Multipurpose Hall",

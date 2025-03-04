@@ -7,7 +7,7 @@ const Hero = () => {
       id="home" 
       className="relative h-screen flex items-center justify-center bg-cover bg-center"
       style={{ 
-        backgroundImage: 'url("https://i.ibb.co/kspkmvFs/0007.jpg")' 
+        backgroundImage: 'url("https://i.ibb.co/3YLzCPQc/main.jpg")' 
       }}
     >
       
