@@ -19,7 +19,7 @@ const Amenities = () => {
   const amenities = [
     {
       title: "State-of-the-art Fitness Center",
-      image: "images/gymm.jpg"
+      image: "https://i.ibb.co/j946vqcm/gymm.jpg"
     },
     {
       title: "Swimming Pool",
@@ -35,7 +35,7 @@ const Amenities = () => {
     },
     {
       title: "Ladies-Gym",
-      image: "images/gym.jpg"
+      image: "https://i.ibb.co/HfDwCdHt/gym.jpg"
     },
     {
       title: " ",
