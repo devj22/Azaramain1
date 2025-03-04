@@ -4,7 +4,7 @@ const ParallaxSection = () => {
   return (
     <section className="relative h-96 md:h-[500px] bg-fixed bg-cover bg-center flex items-center justify-center"
       style={{ 
-        backgroundImage: 'url("images/par.jpg")' 
+        backgroundImage: 'url("https://i.ibb.co/Spw6fpg/par.jpg")' 
       }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-40"></div>
