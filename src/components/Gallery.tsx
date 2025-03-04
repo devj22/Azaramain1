@@ -15,13 +15,13 @@ const Gallery = () => {
   const galleryItems = [
     {
       id: 1,
-      image: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80',
+      image: 'https://i.ibb.co/kspkmvFs/0007.jpg',
       category: 'exterior',
       title: 'Building Exterior - Day View'
     },
     {
       id: 2,
-      image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80',
+      image: 'https://i.ibb.co/wZbg4dYZ/Night.jpg',
       category: 'exterior',
       title: 'Building Exterior - Night View'
     },
@@ -33,37 +33,37 @@ const Gallery = () => {
     },
     {
       id: 4,
-      image: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80',
+      image: 'https://i.ibb.co/HT0xYDHj/0009.jpg',
       category: 'lobby',
       title: 'Reception Area'
     },
     {
       id: 5,
-      image: 'https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80',
+      image: 'https://i.ibb.co/CpdpKbB8/00012.jpg',
       category: 'amenities',
       title: 'Swimming Pool'
     },
     {
       id: 6,
-      image: 'https://images.unsplash.com/photo-1540497077202-7c8a3999166f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80',
+      image: 'https://i.ibb.co/cXDJXLgH/00011.jpg',
       category: 'amenities',
       title: 'Fitness Center'
     },
     {
       id: 7,
-      image: 'https://images.unsplash.com/photo-1529290130-4ca3753253ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80',
+      image: 'https://i.ibb.co/vxgxY1pN/00014.jpg',
       category: 'terrace',
       title: 'Rooftop Terrace'
     },
     {
       id: 8,
-      image: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80',
+      image: 'https://i.ibb.co/xt15jg0R/0008.jpg',
       category: 'interior',
       title: 'Living Room'
     },
     {
       id: 9,
-      image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80',
+      image: 'https://i.ibb.co/FkpjtT7H/0005.jpg',
       category: 'interior',
       title: 'Bedroom'
     }

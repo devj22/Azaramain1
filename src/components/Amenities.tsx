@@ -27,19 +27,19 @@ const Amenities = () => {
     },
     {
       title: "Multipurpose Hall",
-      image: "images/hall.jpg"
+      image: "https://i.ibb.co/C5dPW4Jk/00013.jpg"
     },
     {
       title: "Rooftop Terrace",
-      image: "images/Terrace_A.jpg"
+      image: "https://i.ibb.co/vxgxY1pN/00014.jpg"
     },
     {
       title: "Ladies-Gym",
       image: "images/gym.jpg"
     },
     {
-      title: "Children's Play Area",
-      image: "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80"
+      title: " ",
+      image: "https://i.ibb.co/C5FWmjXJ/0002.jpg"
     }
   ];
 
