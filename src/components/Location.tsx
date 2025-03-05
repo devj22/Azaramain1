@@ -26,7 +26,7 @@ function App() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Hospitals */}
               <div className="bg-white rounded-lg overflow-hidden shadow-md">
-                <div className="flex items-center bg-amber-100 p-4">
+                <div className="flex items-center bg-white p-4"> {/* Changed to white */}
                   <div className="w-10 h-10 rounded-full bg-amber-50 flex items-center justify-center mr-3">
                     <Building2 className="w-6 h-6 text-amber-700" />
                   </div>
@@ -50,7 +50,7 @@ function App() {
               
               {/* Schools */}
               <div className="bg-white rounded-lg overflow-hidden shadow-md">
-                <div className="flex items-center bg-amber-100 p-4">
+                <div className="flex items-center bg-white p-4"> {/* Changed to white */}
                   <div className="w-10 h-10 rounded-full bg-amber-50 flex items-center justify-center mr-3">
                     <GraduationCap className="w-6 h-6 text-amber-700" />
                   </div>
@@ -74,7 +74,7 @@ function App() {
               
               {/* Gardens */}
               <div className="bg-white rounded-lg overflow-hidden shadow-md">
-                <div className="flex items-center bg-amber-100 p-4">
+                <div className="flex items-center  p-4">
                   <div className="w-10 h-10 rounded-full bg-amber-50 flex items-center justify-center mr-3">
                     <Flower2 className="w-6 h-6 text-amber-700" />
                   </div>
@@ -94,7 +94,7 @@ function App() {
               
               {/* Offices */}
               <div className="bg-white rounded-lg overflow-hidden shadow-md">
-                <div className="flex items-center bg-amber-100 p-4">
+                <div className="flex items-center  p-4">
                   <div className="w-10 h-10 rounded-full bg-amber-50 flex items-center justify-center mr-3">
                     <Building className="w-6 h-6 text-amber-700" />
                   </div>
@@ -114,7 +114,7 @@ function App() {
               
               {/* Railway Stations */}
               <div className="bg-white rounded-lg overflow-hidden shadow-md md:col-span-2">
-                <div className="flex items-center bg-amber-100 p-4">
+                <div className="flex items-center bg-white p-4"> {/* Changed to white */}
                   <div className="w-10 h-10 rounded-full bg-amber-50 flex items-center justify-center mr-3">
                     <Train className="w-6 h-6 text-amber-700" />
                   </div>
@@ -158,7 +158,7 @@ function App() {
                   className="w-full h-full"
                 ></iframe>
               </div>
-              <div className="mt-3 flex items-center justify-center bg-amber-100 py-2 px-4 rounded-md">
+              <div className="mt-3 flex items-center justify-center  py-2 px-4 rounded-md">
                 <div className="flex items-center">
                   <div className="w-8 h-8 rounded-full bg-amber-50 flex items-center justify-center mr-2">
                     <MapPin className="w-5 h-5 text-amber-700" />

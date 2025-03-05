@@ -46,18 +46,61 @@ const ProjectHighlights = () => {
   ];
 
   return (
-    <section id="highlights" className="py-20 bg-gray-50">
-      <div className="container mx-auto px-4">
+    <section className="py-20 bg-gray-50">
+      {/* About Us Section */}
+      <div id="about" className="bg-white py-16 md:py-20">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col md:flex-row items-center">
+            
+            {/* Left Column (Image) */}
+            <div className="w-full md:w-1/2 mb-8 md:mb-0">
+              {/* Replace the src below with your own image URL or remove the img if not needed */}
+              <img 
+                src="https://i.ibb.co/217fTKQq/Screenshot-2025-03-05-at-7-03-36-PM.png" 
+                alt="About Us" 
+                className="w-full h-auto rounded-lg shadow-md"
+              />
+            </div>
+            
+            {/* Right Column (Text) */}
+            <div className="w-full md:w-1/2 md:pl-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">About Us</h2>
+              <p className="text-gray-600 mb-6 leading-relaxed">
+              At Azara, we are dedicated to connecting you with the finest properties in Mazgaon. Our team specializes in both ready-to-move flats in Mazgaon and under-construction flats in Mazgaon. With deep local insights and a commitment to quality, we help you navigate through new residential projects in Mazgaon to find the home that best fits your needs.
+Our core values of trust, transparency, and innovation ensure that every client experiences a seamless home-buying journey. Whether you’re a first-time buyer or looking for an investment opportunity, Azara stands as your reliable partner in Mazgaon real estate.
+
+              </p>
+              <p className="text-gray-600 leading-relaxed">
+                Experience a new standard of living with our top-notch amenities, prime location, 
+                and attentive service. We are committed to providing an unparalleled community 
+                experience tailored to your lifestyle.
+              </p>
+              {/* Optional Button or Call-to-Action */}
+              <div className="mt-6">
+                <a
+                  href="#contact"
+                  className="inline-block bg-[#c95e4e] text-white py-3 px-6 rounded-full font-medium hover:bg-opacity-90 transition-colors"
+                >
+                  Contact Us
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Project Highlights Section */}
+      <div id="highlights" className="container mx-auto px-4 mt-8 md:mt-16">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Project Highlights</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Discover what makes our apartment complex the perfect place to call home
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {highlights.map((highlight, index) => (
-            <HighlightCard 
+            <HighlightCard
               key={index}
               icon={highlight.icon}
               title={highlight.title}
