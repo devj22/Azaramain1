@@ -1,0 +1,11 @@
+.hero-bg {
+    background-image: url("https://i.ibb.co/bZy8F4w/Screenshot-2025-03-04-at-11-44-01-PM.png");
+  }
+  
+  /* Mobile devices: adjust the max-width value as needed */
+  @media (max-width: 768px) {
+    .hero-bg {
+      background-image: url("https://i.ibb.co/1Gz2wJ2C/Screenshot-2025-03-05-at-12-24-49-AM.png");
+    }
+  }
+  

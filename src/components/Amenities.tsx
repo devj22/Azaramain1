@@ -38,8 +38,8 @@ const Amenities = () => {
       image: "https://i.ibb.co/HfDwCdHt/gym.jpg"
     },
     {
-      title: " ",
-      image: "https://i.ibb.co/C5FWmjXJ/0002.jpg"
+      title: "Living-Room",
+      image: "https://i.ibb.co/Zpvj6vgG/Screenshot-2025-03-05-at-6-36-33-PM.png"
     }
   ];
 

@@ -1,17 +1,15 @@
 import React from 'react';
 import { ChevronDown } from 'lucide-react';
-
+import './Hero.css'; 
 const Hero = () => {
   return (
     <section 
       id="home" 
-      className="relative h-screen flex items-center justify-center bg-cover bg-center"
-      style={{ 
-        backgroundImage: 'url("https://i.ibb.co/3YLzCPQc/main.jpg")' 
-      }}
+      className="relative h-screen flex items-center justify-center bg-cover bg-center hero-bg"
+      
     >
       
-      <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+      {/* <div className="absolute inset-0 bg-black bg-opacity-0"></div>
       
       <div className="relative z-10 text-center px-4 max-w-4xl">
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 leading-tight">
@@ -28,7 +26,7 @@ const Hero = () => {
 </a>
 
 
-      </div>
+      </div> */}
       
       <a 
         href="#highlights" 

@@ -15,13 +15,13 @@ const Gallery = () => {
   const galleryItems = [
     {
       id: 1,
-      image: 'https://i.ibb.co/kspkmvFs/0007.jpg',
+      image: 'https://i.ibb.co/WvYjW170/Screenshot-2025-03-05-at-6-32-04-PM.png',
       category: 'exterior',
       title: 'Building Exterior - Day View'
     },
     {
       id: 2,
-      image: 'https://i.ibb.co/wZbg4dYZ/Night.jpg',
+      image: 'https://i.ibb.co/BHcnxSML/Screenshot-2025-03-05-at-6-20-41-PM.png',
       category: 'exterior',
       title: 'Building Exterior - Night View'
     },

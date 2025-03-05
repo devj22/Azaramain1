@@ -13,7 +13,8 @@ const FloorPlans = () => {
         'Modern kitchen with premium appliances',
         'Luxurious bathroom',
         'Private balcony'
-      ]
+      ],
+      downloadLink: 'https://drive.google.com/file/d/1f4b3xXhg9Nu_4feLsksr2Rnqj2r_DaVS/view?usp=share_link'
     },
     '2BHK': {
       image: 'https://i.ibb.co/zTjfNtqN/2-BHK-Isometric-Flat-No-3.jpg',
@@ -25,7 +26,8 @@ const FloorPlans = () => {
         'Spacious living and dining area',
         'Modern kitchen with island',
         'Private balcony with city views'
-      ]
+      ],
+      downloadLink: 'https://drive.google.com/file/d/1qqyZVVWOv8WB8qDI4s-QdKJG78rD2GkW/view?usp=share_link' 
     },
     '3BHK': {
       image: 'https://i.ibb.co/KcKjLFNn/3-BHK-Isometric-Flat-No-1.jpg',
@@ -38,10 +40,11 @@ const FloorPlans = () => {
         'Gourmet kitchen with premium appliances',
         'Multiple balconies with panoramic views',
         'Dedicated home office space'
-      ]
+      ],
+      downloadLink: 'https://drive.google.com/file/d/1Xi9PZke-k7o4MTkKhBNF2J_MPo3O12DY/view?usp=share_link' // Replace with actual link
     }
   };
-
+  
   const tabs = [
     { id: '1BHK', label: '1 BHK' },
     { id: '2BHK', label: '2 BHK' },
@@ -108,10 +111,12 @@ const FloorPlans = () => {
             </li>
           ))}
         </ul>
+        <a href={floorPlans[activeTab].downloadLink} target="_blank" rel="noopener noreferrer">
+  <button className="mt-8 bg-[#c95e4e] hover:bg-[#b14e40] text-white font-medium px-6 py-3 rounded-md transition-colors duration-300">
+    Download Floor Plan
+  </button>
+</a>
 
-        <button className="mt-8 bg-[#c95e4e] hover:bg-[#b14e40] text-white font-medium px-6 py-3 rounded-md transition-colors duration-300">
-          Download Floor Plan
-        </button>
       </div>
     </div>
   </div>
