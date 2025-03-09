@@ -9,7 +9,7 @@ const Hero = () => {
       
     >
       
-      {/* <div className="absolute inset-0 bg-black bg-opacity-0"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-0"></div>
       
       <div className="relative z-10 text-center px-4 max-w-4xl">
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 leading-tight">
@@ -26,7 +26,7 @@ const Hero = () => {
 </a>
 
 
-      </div> */}
+      </div>
       
       <a 
         href="#highlights" 

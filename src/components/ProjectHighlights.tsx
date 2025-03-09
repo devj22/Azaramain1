@@ -54,13 +54,15 @@ const ProjectHighlights = () => {
             
             {/* Left Column (Image) */}
             <div className="w-full md:w-1/2 mb-8 md:mb-0">
-              {/* Replace the src below with your own image URL or remove the img if not needed */}
-              <img 
-                src="https://i.ibb.co/217fTKQq/Screenshot-2025-03-05-at-7-03-36-PM.png" 
-                alt="About Us" 
-                className="w-full h-auto rounded-lg shadow-md"
-              />
-            </div>
+  <video 
+    src="https://www.redstonegroup.in/public/uploads/projects_gallery/azara-residences-video.mp4" 
+    controls 
+    className="w-full h-auto rounded-lg shadow-md"
+  >
+    Your browser does not support the video tag.
+  </video>
+</div>
+
             
             {/* Right Column (Text) */}
             <div className="w-full md:w-1/2 md:pl-12">

@@ -9,6 +9,7 @@ import Location from './components/Location';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import FixedWhatsAppButton from './components/FixedWhatsAppButton';
 
 function App() {
   return (
@@ -16,15 +17,16 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <Contact />
         <ProjectHighlights />
         <FloorPlans />
         <ParallaxSection />
         <Amenities />
         <Location />
         <Gallery />
-        <Contact />
       </main>
       <Footer />
+      <FixedWhatsAppButton />
     </div>
   );
 }
