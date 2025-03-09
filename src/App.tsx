@@ -12,21 +12,37 @@ import Footer from './components/Footer';
 import FixedWhatsAppButton from './components/FixedWhatsAppButton';
 
 function App() {
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <Header />
       <main>
         <Hero />
-        <Contact />
         <ProjectHighlights />
         <FloorPlans />
         <ParallaxSection />
         <Amenities />
         <Location />
         <Gallery />
+        {/* Render the contact section */}
+        <Contact />
       </main>
       <Footer />
       <FixedWhatsAppButton />
+
+      {/* Fixed button positioned on the left side */}
+      <button 
+        onClick={scrollToContact}
+        className="fixed bottom-4 left-4 bg-[#c95e4e] text-white p-4 rounded-full shadow-lg z-50"
+      >
+        Contact Us
+      </button>
     </div>
   );
 }
