@@ -25,9 +25,7 @@ const Footer = () => {
           <a href="#" className="text-white hover:opacity-80 transition-opacity duration-300">
             <Instagram size={20} />
           </a>
-          <a href="#" className="text-white hover:opacity-80 transition-opacity duration-300">
-            <Linkedin size={20} />
-          </a>
+          
         </div>
       </div>
 
@@ -71,18 +69,17 @@ AZARA REDSTONE LLP:
       </div>
 
       <div>
-        <h3 className="text-lg font-semibold mb-4">Download Brochure</h3>
-        <a href='https://drive.google.com/file/d/1Luce-6nL24Qvpugfe5YcLS1-crhqlPI1/view?usp=share_link'>
-        
-          
-          <button
-            type="submit"
-            className="bg-white text-[#c95e4e] hover:bg-gray-100 px-4 py-2 rounded-r-md transition-colors duration-300"
-          >
-            Download
-          </button>
-        </a>
-      </div>
+  <h3 className="text-lg font-semibold mb-4">Download Brochure</h3>
+  <a href="https://drive.google.com/file/d/1Luce-6nL24Qvpugfe5YcLS1-crhqlPI1/view?usp=share_link">
+    <button
+      type="submit"
+      className="bg-white text-[#c95e4e] hover:bg-gray-100 px-4 py-2 rounded-full transition-colors duration-300"
+    >
+      Download
+    </button>
+  </a>
+</div>
+
     </div>
 
     <div className="border-t border-white pt-8">
