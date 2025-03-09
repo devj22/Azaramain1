@@ -11,12 +11,16 @@ const PopupForm: React.FC<PopupFormProps> = ({ isOpen, onClose }) => {
     name: "",
     email: "",
     mobile: "",
+    message: "",
   });
 
-  const [message, setMessage] = useState<string>("");
+  // This state holds the success/error status message after sending
+  const [statusMessage, setStatusMessage] = useState<string>("");
 
-  // Handle Input Change
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  // Handle input/textarea changes in a single function
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
@@ -32,17 +36,20 @@ const PopupForm: React.FC<PopupFormProps> = ({ isOpen, onClose }) => {
           name: formData.name,
           email: formData.email,
           mobile: formData.mobile,
+          message: formData.message,
         },
         "8Ylj76VKCYAxAKbF7" // Replace with your EmailJS Public Key
       )
       .then(
         () => {
-          setMessage("Message sent successfully!");
-          setFormData({ name: "", email: "", mobile: "" }); // Reset form
-          setTimeout(() => setMessage(""), 3000);
+          setStatusMessage("Message sent successfully!");
+          // Reset form
+          setFormData({ name: "", email: "", mobile: "", message: "" });
+          // Clear status message after 3 seconds
+          setTimeout(() => setStatusMessage(""), 3000);
         },
         (error) => {
-          setMessage("Failed to send message. Try again.");
+          setStatusMessage("Failed to send message. Try again.");
           console.error("EmailJS Error:", error);
         }
       );
@@ -53,12 +60,15 @@ const PopupForm: React.FC<PopupFormProps> = ({ isOpen, onClose }) => {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
       <div className="bg-white p-6 rounded-lg shadow-lg w-96 relative">
+        {/* Close button */}
         <button className="absolute top-2 right-2 text-gray-600" onClick={onClose}>
           ✕
         </button>
+
         <h2 className="text-xl font-semibold mb-4">Get More Details Enquire Now</h2>
-        
-        {message && <p className="text-green-600 mb-2">{message}</p>}
+
+        {/* Display success or error message */}
+        {statusMessage && <p className="text-green-600 mb-2">{statusMessage}</p>}
 
         <form onSubmit={handleSubmit}>
           <input
@@ -70,6 +80,7 @@ const PopupForm: React.FC<PopupFormProps> = ({ isOpen, onClose }) => {
             onChange={handleChange}
             required
           />
+
           <input
             type="email"
             name="email"
@@ -79,6 +90,7 @@ const PopupForm: React.FC<PopupFormProps> = ({ isOpen, onClose }) => {
             onChange={handleChange}
             required
           />
+
           <input
             type="tel"
             name="mobile"
@@ -88,7 +100,22 @@ const PopupForm: React.FC<PopupFormProps> = ({ isOpen, onClose }) => {
             onChange={handleChange}
             required
           />
-          <button type="submit" className="w-full bg-[#c95e4e] text-white py-2 mt-2 rounded">
+
+          {/* New Message Field */}
+          <textarea
+            name="message"
+            placeholder="Your Message*"
+            className="w-full p-2 border mb-2 rounded"
+            value={formData.message}
+            onChange={handleChange}
+            rows={4}
+            required
+          />
+
+          <button
+            type="submit"
+            className="w-full bg-[#c95e4e] text-white py-2 mt-2 rounded"
+          >
             Submit
           </button>
         </form>
