@@ -61,14 +61,30 @@ const PopupForm: React.FC<PopupFormProps> = ({ isOpen, onClose }) => {
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
       <div className="bg-white p-6 rounded-lg shadow-lg w-96 relative">
         {/* Close button */}
-        <button className="absolute top-2 right-2 text-gray-600" onClick={onClose}>
+        <button
+          className="absolute top-2 right-2 text-gray-600"
+          onClick={onClose}
+        >
           ✕
         </button>
 
-        <h2 className="text-xl font-semibold mb-4">Get More Details Enquire Now</h2>
+        {/* Website Logo */}
+        <div className="flex justify-center mb-4">
+          <img
+            src="https://i.ibb.co/fd8tg7kq/mainlogo.png" // Replace with your logo path
+            alt="Website Logo"
+            className="h-16"
+          />
+        </div>
+
+        <h2 className="text-xl font-semibold mb-4">
+          Get More Details Enquire Now
+        </h2>
 
         {/* Display success or error message */}
-        {statusMessage && <p className="text-green-600 mb-2">{statusMessage}</p>}
+        {statusMessage && (
+          <p className="text-green-600 mb-2">{statusMessage}</p>
+        )}
 
         <form onSubmit={handleSubmit}>
           <input
@@ -101,7 +117,6 @@ const PopupForm: React.FC<PopupFormProps> = ({ isOpen, onClose }) => {
             required
           />
 
-          {/* New Message Field */}
           <textarea
             name="message"
             placeholder="Your Message*"

@@ -13,7 +13,7 @@ import FixedWhatsAppButton from "./components/FixedWhatsAppButton";
 import PopupForm from "./components/PopupForm";
 
 const App: React.FC = () => {
-  const [isPopupOpen, setPopupOpen] = useState<boolean>(false);
+  const [isPopupOpen, setPopupOpen] = useState<boolean>(true); // Changed to true to open on load
 
   return (
     <div className="min-h-screen bg-white">
